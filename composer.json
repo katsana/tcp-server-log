@@ -1,0 +1,21 @@
+{
+    "name": "katsana/tcp-server-log",
+    "description": "Log TCP message using ReactPHP",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "KATSANA Developer",
+            "email": "developer@katsana.com"
+        }
+    ],
+    "require": {
+        "react/event-loop": "^1.1",
+        "react/socket": "^1.2",
+        "react/stream": "^1.1"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "stable"
+}
