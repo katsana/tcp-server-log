@@ -24,7 +24,7 @@ $server->on('connection', function (React\Socket\ConnectionInterface $connection
 });
 
 $server->on('error', function (Exception $e) use ($writer) {
-    $writer->write('Error'.$e->getMessage().PHP_EOL);
+    $writer->write('Error: '.$e->getMessage().PHP_EOL);
 });
 
 $eventLoop->run();
